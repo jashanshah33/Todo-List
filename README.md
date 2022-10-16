@@ -2,7 +2,7 @@
 
 
 
-### General steps to followed while creating a project.
+### General steps followed while creating a project.
 
 - Functionality
 	- Add a TODO
