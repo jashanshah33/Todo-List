@@ -56,7 +56,7 @@ function toggleTask(taskId) {
     const currentTask = task[0];
     currentTask.completed = !currentTask.completed;
     renderList();
-    showNotification("Task toggled sucessfully");
+//     showNotification("Task toggled sucessfully");
     return;
   }
   showNotification("Task toggled failed");
@@ -68,7 +68,7 @@ function deleteTask(taskId) {
   });
   tasks = newTask;
   renderList();
-  showNotification("Task is deleted sucessfully");
+//   showNotification("Task is deleted sucessfully");
 }
 
 function addTask(task) {
@@ -96,7 +96,7 @@ function addTask(task) {
 
     tasks.push(task);
     renderList();
-    showNotification("Task added sucessfully");
+//     showNotification("Task added sucessfully");
     return;
   }
 }
